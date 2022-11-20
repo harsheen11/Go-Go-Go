@@ -5,8 +5,11 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour
 {
     // public Transform transfrom;
-    public float speed = 200f;
-    public float rotationSpeed = 200f;
+
+    // public Rigidbody rb;
+
+    public float speed = 1f;
+    public float rotationSpeed = 1f;
 
     // This bool prevents car to turn direction while being still
     private bool isMoving = false;
@@ -18,7 +21,9 @@ public class CarMovement : MonoBehaviour
 
     //bool used to check if acceleration clip already being played
     private bool acceleraionClipPlayed = false;
-
+    // private Vector3 leftLimit = new Vector3(680, 0, 0);
+    //private Vector3 rightLimit = new Vector3(-30, 0, 0);
+    //private Vector3 moveTO;
 
     // private float volumeControl = 1f;
     public AudioClip accelerationClip;
@@ -27,6 +32,7 @@ public class CarMovement : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        //rb = GetComponent<Rigidbody>();
         audioSource.clip = ignitionClip;
         audioSource.Play();
     }
@@ -74,7 +80,11 @@ public class CarMovement : MonoBehaviour
             //audioSource.Pause();
         }
 
-        transform.Translate(0, 0, translation);
+        transform.Translate(translation, 0, 0);
+        //rb.AddForce(translation, 0, 0, ForceMode.Impulse);
+        // moveTO = (0, 0, translation)
+        // rb.MovePosition(moveTO);
+
     }
 
     void carSideMovement()
@@ -113,7 +123,7 @@ public class CarMovement : MonoBehaviour
     {
         if (acceleraionClipPlayed)
         {
-            yield return new WaitForSeconds(0.75f);
+            yield return new WaitForSeconds(0.55f);
             Debug.Log("stopped");
             audioSource.Pause();
         }
