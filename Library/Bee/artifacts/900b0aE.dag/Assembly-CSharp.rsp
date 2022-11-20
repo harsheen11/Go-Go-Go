@@ -120,6 +120,7 @@
 -define:ENABLE_TERRAIN
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
+-define:ENABLE_INPUT_SYSTEM
 -define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CROSS_PLATFORM_INPUT
 -define:MOBILE_INPUT
@@ -334,6 +335,7 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.2D.Tilemap.Extras.Editor.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.2D.Tilemap.Extras.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
+-r:"Library/Bee/artifacts/900b0aE.dag/Unity.InputSystem.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.InternalAPIEditorBridge.007.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.InternalAPIEngineBridge.007.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"

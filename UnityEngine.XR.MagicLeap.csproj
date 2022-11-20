@@ -22,7 +22,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;XR_MANAGEMENT_3_2_0_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_2021_3_11;UNITY_2021_3;UNITY_2021;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_INCLUDE_TESTS;USE_SEARCH_ENGINE_API;USE_SEARCH_TABLE;USE_SEARCH_MODULE;USE_PROPERTY_DATABASE;USE_SEARCH_EXTENSION_API;SCENE_TEMPLATE_MODULE;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;PLATFORM_IOS;TEXTCORE_1_0_OR_NEWER;ENABLE_RUNTIME_GI;ENABLE_GAMECENTER;ENABLE_NETWORK;ENABLE_IOS_ON_DEMAND_RESOURCES;ENABLE_IOS_APP_SLICING;PLAYERCONNECTION_LISTENS_FIXED_PORT;DEBUGGER_LISTENS_FIXED_PORT;PLATFORM_SUPPORTS_ADS_ID;SUPPORT_ENVIRONMENT_VARIABLES;PLATFORM_SUPPORTS_PROFILER;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_ETC_COMPRESSION;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;UNITY_IOS;PLATFORM_IPHONE;UNITY_IPHONE;UNITY_IPHONE_API;UNITY_HAS_GOOGLEVR;ENABLE_SPATIALTRACKING;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;ENABLE_LEGACY_INPUT_MANAGER;CROSS_PLATFORM_INPUT;MOBILE_INPUT;UNITY_INPUT_SYSTEM;XR_MANAGEMENT_3_2_0_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -39,61 +39,61 @@
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Input/DeviceCommands.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Gesture/MagicLeapTouchpadGestureEvent.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/RaycastResultState.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Rendering/RenderingUtility.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapLoader.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Meshing/MeshingSettings.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MLResult.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/MagicLeapAnchorSubsystem.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Meshing/MagicLeapMeshSubsystemExtensions.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Input/MagicLeapInput.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/ImageConversionJobs.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapFeatures.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Remote/MagicLeapRemoteManager.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/PlaneBoundary.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastQuery.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlanesQuery.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/ManagedReferenceImage.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPolygon.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/ReferenceFrame.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Meshing/MLSpatialMapper.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/MLCoordinateFrameUID.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/MagicLeapImageTrackingSubsystem.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/AsyncRaycastResult.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/PlaneBoundaryCollection.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastResult.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastResultState.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Gesture/MagicLeapKeyPoseGestureEvent.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Rendering/RenderingUtility.cs" />
+     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapLoader.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Rendering/RenderingJobs.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapLogger.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Privileges/MagicLeapPrivileges.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/CopyPlaneResultsJob.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/AssemblyInfo.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/MagicLeapAnchorSubsystem.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Meshing/MagicLeapMeshSubsystemExtensions.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Input/DeviceLayouts.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Input/MagicLeapInput.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MagicLeapPlaneSubsystem.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlaneBoundariesList.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/ImageConversionJobs.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Gesture/MagicLeapGestureSubsystem.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MLWarnings.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Input/MagicLeapFeatureUsages.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Remote/MagicLeapRemoteAutomation.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/NativeFixedList.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapFeatures.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlanesQueryFlags.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Rendering/RenderingSettings.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/RaycastQuery.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Internal/PerceptionHandle.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Remote/MagicLeapRemoteManager.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/PlaneBoundary.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastQuery.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Session/MagicLeapSessionSubsystem.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlanesQuery.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/ConvexHullGenerator.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/ManagedReferenceImage.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/MagicLeapImageDatabase.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPolygon.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlaneBoundary.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Compatibility.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/ReferenceFrame.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlane.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Meshing/MLSpatialMapper.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MagicLeapRaycastSubsystem.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/RcoApi.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Anchor/MLCoordinateFrameUID.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/ImageTracking/MagicLeapImageTrackingSubsystem.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/AsyncRaycastResult.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapConstants.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/MagicLeapSettings.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/PlaneBoundaryCollection.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastResult.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Raycasting/MLRaycastResultState.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Rendering/MagicLeapCamera.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/MLPlaneBoundaries.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Gesture/MagicLeapGestures.cs" />
      <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Plane/TransformPlaneBoundaryJob.cs" />
-     <Compile Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/Gesture/MagicLeapKeyPoseGestureEvent.cs" />
      <None Include="Library/PackageCache/com.unity.xr.magicleap@6.4.1/Runtime/UnityEngine.XR.MagicLeap.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -761,6 +761,10 @@
     <ProjectReference Include="Unity.XR.Management.Editor.csproj">
       <Project>{95a60e82-06a8-b722-9aae-6f157f1b8a1d}</Project>
       <Name>Unity.XR.Management.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.csproj">
+      <Project>{45e214a8-eee7-867b-03bc-9bd51a7974bf}</Project>
+      <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
       <Project>{4123a4c8-4332-e99a-9159-6dc814323a0e}</Project>

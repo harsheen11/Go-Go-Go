@@ -5,6 +5,8 @@ using UnityEngine;
 public class CarMovement : MonoBehaviour
 {
     // public Transform transfrom;
+
+    //public Rigidbody rb;
     public float speed = 200f;
     public float rotationSpeed = 200f;
 
@@ -18,7 +20,9 @@ public class CarMovement : MonoBehaviour
 
     //bool used to check if acceleration clip already being played
     private bool acceleraionClipPlayed = false;
-
+    // private Vector3 leftLimit = new Vector3(680, 0, 0);
+    //private Vector3 rightLimit = new Vector3(-30, 0, 0);
+    //private Vector3 moveTO;
 
     // private float volumeControl = 1f;
     public AudioClip accelerationClip;
@@ -73,8 +77,12 @@ public class CarMovement : MonoBehaviour
             StartCoroutine(stopAccelerationClip());
             //audioSource.Pause();
         }
+        //if (((translation - leftLimit.x) > -220) && ((translation - rightLimit.x) < 680)){  }
+        //Debug.Log(translation - leftLimit.x);
+        transform.Translate(translation, 0, 0);
+        // moveTO = (0, 0, translation)
+        // rb.MovePosition(moveTO);
 
-        transform.Translate(0, 0, translation);
     }
 
     void carSideMovement()
@@ -113,7 +121,7 @@ public class CarMovement : MonoBehaviour
     {
         if (acceleraionClipPlayed)
         {
-            yield return new WaitForSeconds(0.75f);
+            yield return new WaitForSeconds(0.55f);
             Debug.Log("stopped");
             audioSource.Pause();
         }
