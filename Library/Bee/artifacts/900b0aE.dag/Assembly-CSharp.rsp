@@ -372,6 +372,7 @@
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.XR.LegacyInputHelpers.ref.dll"
 -r:"Library/Bee/artifacts/900b0aE.dag/UnityEngine.XR.MagicLeap.ref.dll"
 "Assets/Jasmeet/Scripts/CarMovement.cs"
+"Assets/touchInput.cs"
 -langversion:9.0
 
 /deterministic

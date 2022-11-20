@@ -6,9 +6,10 @@ public class CarMovement : MonoBehaviour
 {
     // public Transform transfrom;
 
-    //public Rigidbody rb;
-    public float speed = 200f;
-    public float rotationSpeed = 200f;
+    // public Rigidbody rb;
+
+    public float speed = 1f;
+    public float rotationSpeed = 1f;
 
     // This bool prevents car to turn direction while being still
     private bool isMoving = false;
@@ -31,6 +32,7 @@ public class CarMovement : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        //rb = GetComponent<Rigidbody>();
         audioSource.clip = ignitionClip;
         audioSource.Play();
     }
@@ -77,9 +79,9 @@ public class CarMovement : MonoBehaviour
             StartCoroutine(stopAccelerationClip());
             //audioSource.Pause();
         }
-        //if (((translation - leftLimit.x) > -220) && ((translation - rightLimit.x) < 680)){  }
-        //Debug.Log(translation - leftLimit.x);
+
         transform.Translate(translation, 0, 0);
+        //rb.AddForce(translation, 0, 0, ForceMode.Impulse);
         // moveTO = (0, 0, translation)
         // rb.MovePosition(moveTO);
 
